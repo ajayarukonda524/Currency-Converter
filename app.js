@@ -8,7 +8,8 @@ const msg = document.querySelector(".msg");
 const exchg = document.querySelector(".dropdown i")
 
 for(let select of dropdowns){
-    for(currCode in countryList) {
+
+    for(currCode in countryList) { 
         let newOption = document.createElement("option");
         newOption.innerText = currCode;
         newOption.value = currCode;
